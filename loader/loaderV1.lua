@@ -36,9 +36,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("7xxx Selection", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Section Example")
+local Section = Tab:CreateSection("Script Example")
 
 local Button = Tab:CreateButton({
     Name = "No-Lag Script",
