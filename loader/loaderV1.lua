@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
-      Enabled = true,
+      Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "Big Hub"
    },
@@ -36,9 +36,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("HUB", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Section Example")
+local Section = Tab:CreateSection("Grow A Garden")
 
 local Button = Tab:CreateButton({
     Name = "No-Lag Script",
